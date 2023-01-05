@@ -2,6 +2,7 @@
 """
 This is the "2-matrix_divided" module.
 The 2-matrix_divided module supplies one function, matrix_divided(matrix, div).
+
 """
 
 
@@ -27,4 +28,4 @@ integers/floats")
         raise TypeError("div must be a number")
     if div == 0:
         raise ZeroDivisionError("division by zero")
-    return [[round(i / div, 2) for i in l] for l in matrix]
+    return [[round(i / div, 2) for i in l] for l in matrixi]
